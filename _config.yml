@@ -1,0 +1,41 @@
+title: "Gary G. Bennett, PhD"
+description: "Higher-education leader, scholar of digital health & equity, Dean of Trinity College of Arts & Sciences at Duke University."
+baseurl: ""
+url: "https://drgarybennett.org"
+theme: minima
+markdown: kramdown
+minima:
+  skin: auto
+  social_links:
+    - {"platform": "x", "user_url": "https://twitter.com/"}
+    - {"platform": "linkedin", "user_url": "https://www.linkedin.com/in/"}
+    - {"platform": "github", "user_url": "https://github.com/"}
+show_excerpts: true
+permalink: /:title/
+author:
+  name: "Gary G. Bennett, PhD"
+  email: ""
+  avatar: /assets/img/headshot.jpg
+
+# GitHub Pages supports these default plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation (used by custom header include)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Leadership"
+    url: "/leadership/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Media"
+    url: "/media/"
+  - title: "Thoughts"
+    url: "/thoughts/"
+  - title: "Press Kit"
+    url: "/press-kit/"
+  - title: "Contact"
+    url: "/contact/"
